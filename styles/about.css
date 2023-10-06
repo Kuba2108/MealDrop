@@ -1,17 +1,29 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
-  border: 1px solid #000;
 }
 
 /*   header  started   */
 
+.header-wrapper {
+  padding: 0 30px;
+}
 
+.card-btn {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+}
+
+.card-btn > span {
+  color: #949494;
+}
 
 /*   header end    */
 
@@ -27,7 +39,7 @@
 
 .about_restaurent {
   color: #fff;
-  font-size: 70px;
+  font-size: 50px;
   text-align: center;
   padding-top: 70px;
 }
