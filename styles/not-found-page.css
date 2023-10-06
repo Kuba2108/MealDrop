@@ -6,3 +6,17 @@
 	align-items: center;
 	padding-bottom: 141px;
 }
+.wrap h1 {
+	font-size: 35px;
+	font-weight: 700;
+}
+.wrap p,
+.home-btn {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.home-btn {
+	margin-top: 32px;
+	padding: 13px 24px;
+}
