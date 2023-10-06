@@ -18,5 +18,11 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	border: 1px solid red;
+}
+
+.common-btn {
+    border: none;
+    color: #fff;
+    background-color: black;
+    border-radius: 4px;
 }
