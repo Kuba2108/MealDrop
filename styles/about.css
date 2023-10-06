@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*   header  started   */
+
+.header-wrapper {
+  padding: 0 30px;
+}
+
+.card-btn {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+}
+
+.card-btn > span {
+  color: #949494;
+}
+
+/*   header end    */
+
+/*    section 1 started   */
+
+.section__back_about {
+  width: inherit;
+  height: 200px;
+  background: url(../images/background-about-image.png) no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.about_restaurent {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 70px;
+}
